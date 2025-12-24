@@ -426,3 +426,5 @@ D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductAp
 D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductApi\obj\Debug\net10.0\ProductApi.pdb
 D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductApi\obj\Debug\net10.0\ProductApi.genruntimeconfig.cache
 D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductApi\obj\Debug\net10.0\ref\ProductApi.dll
+D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductApi\obj\Debug\net10.0\ProductApi.sourcelink.json
+D:\AdnanPractice\Angular13Projects\Angular13ProductCrudApp\product-api\ProductApi\bin\Debug\net10.0\ProductApi.staticwebassets.runtime.json

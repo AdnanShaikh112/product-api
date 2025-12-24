@@ -11,12 +11,40 @@
       "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\productqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\dto\\productcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\dto\\productcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\dto\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\dto\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|d:\\adnanpractice\\angular13projects\\angular13productcrudapp\\product-api\\productapi\\models\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E962D6F7-FF83-9B7F-B7BE-F24219127C2F}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +54,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Product.cs",
+              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:07:10.857Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,33 +78,37 @@
               "RelativeDocumentMoniker": "ProductApi\\Models\\ProductQueryParams.cs",
               "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\ProductQueryParams.cs",
               "RelativeToolTip": "ProductApi\\Models\\ProductQueryParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T12:47:02.533Z"
+              "WhenOpened": "2025-12-23T12:05:41.24Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ProductApi\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ProductApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "20251224104558_Added_ImageUrl_Field.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs",
+              "RelativeToolTip": "ProductApi\\Migrations\\20251224104558_Added_ImageUrl_Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:29:05.517Z"
+              "WhenOpened": "2025-12-24T10:45:58.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
-              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Product.cs",
-              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Program.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Program.cs",
+              "RelativeToolTip": "ProductApi\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:16:58.642Z"
+              "WhenOpened": "2025-12-24T07:47:31.968Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,9 +118,87 @@
               "RelativeDocumentMoniker": "ProductApi\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwG4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:50:21.829Z",
+              "WhenOpened": "2025-12-22T07:07:15.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductColorDto.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductColorDto.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Dto\\ProductColorDto.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductColorDto.cs",
+              "RelativeToolTip": "ProductApi\\Dto\\ProductColorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:12:19.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\ProductColor.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\ProductColor.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\ProductColor.cs",
+              "RelativeToolTip": "ProductApi\\Models\\ProductColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:10:43.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Dto\\ProductResponseDto.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductResponseDto.cs",
+              "RelativeToolTip": "ProductApi\\Dto\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:53:49.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProductApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:14:25.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Dto\\ProductDto.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "ProductApi\\Dto\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:14:16.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Color.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\Color.cs",
+              "ToolTip": "D:\\AdnanPractice\\Angular13Projects\\Angular13ProductCrudApp\\product-api\\ProductApi\\Models\\Color.cs",
+              "RelativeToolTip": "ProductApi\\Models\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T07:07:22.498Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProductApi.Data;
+using ProductApi.Dto;
 using ProductApi.Models;
 
 namespace ProductApi.Controllers
@@ -68,26 +69,112 @@ namespace ProductApi.Controllers
 
             var totalRecords = await query.CountAsync();
 
-            var products = await query.Skip((queryParams.Page - 1) * queryParams.PageSize)
-                .Take(queryParams.PageSize).ToListAsync();
+            var products = await query.Include(p => p.ProductColors).ThenInclude(pc => pc.Color)
+                .Skip((queryParams.Page - 1) * queryParams.PageSize).Take(queryParams.PageSize)
+                .Select(p => new ProductColorDto()
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    ProductPrice = p.ProductPrice,
+                    Features = p.Features,
+                    PurchaseDate = p.PurchaseDate,
+                    Description = p.Description,
+                    Size = p.Size,
+                    Colors = p.ProductColors.Select(pc => pc.Color.ColorName).ToList()
+
+                }).ToListAsync();
 
             return Ok(new { Data = products, TotalRecords = totalRecords });
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductById(int id) =>
-            Ok(await context.Products.FindAsync(id));
-
-        [HttpPost]
-        public async Task<IActionResult> CreateProduct(Product product)
+        public async Task<IActionResult> GetProductById(int id)
         {
-            context.Products.Add(product);
-            await context.SaveChangesAsync();
+            var product = await context.Products.Where(p => p.ProductId == id)
+                .Select(p => new
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    ProductPrice = p.ProductPrice,
+                    Features = p.Features,
+                    PurchaseDate = p.PurchaseDate,
+                    Description = p.Description,
+                    Size = p.Size,
+                    ColorIds = p.ProductColors.Select(pc => pc.Color.ColorId).ToList(),
+                    ImagePath = p.ImagePath
+                }).FirstOrDefaultAsync();
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
             return Ok(product);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(ProductDto dto)
+        {
+            string? imagePath = null;
+
+            if (dto.Image != null)
+            {
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                if (!Directory.Exists(folder))
+                    Directory.CreateDirectory(folder);
+
+                var fileName = Guid.NewGuid() + Path.GetExtension(dto.Image.FileName);
+                var fullPath = Path.Combine(folder, fileName);
+
+                using var stream = new FileStream(fullPath, FileMode.Create);
+                await dto.Image.CopyToAsync(stream);
+
+                imagePath = "/images/" + fileName;
+            }
+
+            var product = new Product
+            {
+                ProductName = dto.ProductName,
+                ProductPrice = dto.ProductPrice,
+                Features = dto.Features,
+                PurchaseDate = dto.PurchaseDate,
+                Description = dto.Description,
+                Size = dto.Size,
+                ImagePath = imagePath
+            };
+
+            context.Products.Add(product);
+            await context.SaveChangesAsync();
+
+            foreach (var colorId in dto.ColorIds)
+            {
+                context.ProductColors.Add(new ProductColor
+                {
+                    ProductId = product.ProductId,
+                    ColorId = colorId
+                });
+            }
+
+            await context.SaveChangesAsync();
+
+            var response = new ProductResponseDto
+            {
+                ProductId = product.ProductId,
+                ProductName = product.ProductName,
+                ProductPrice = product.ProductPrice,
+                Features = product.Features,
+                PurchaseDate = product.PurchaseDate,
+                Description = product.Description,
+                Size = product.Size,
+                ColorIds = dto.ColorIds,
+                Image = dto.Image
+            };
+
+            return Ok(response);
+        }
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, Product product)
+        public async Task<IActionResult> UpdateProduct(int id, ProductDto product)
         {
             var existing = await context.Products.FindAsync(id);
             if (existing == null) return NotFound();
@@ -96,9 +183,54 @@ namespace ProductApi.Controllers
             existing.ProductPrice = product.ProductPrice;
             existing.Features = product.Features;
             existing.PurchaseDate = product.PurchaseDate;
+            existing.Description = product.Description;
+            existing.Size = product.Size;
+
+            var oldColors = context.ProductColors
+            .Where(pc => pc.ProductId == id);
+
+            context.ProductColors.RemoveRange(oldColors);
+
+            foreach (var colorId in product.ColorIds)
+            {
+                context.ProductColors.Add(new ProductColor
+                {
+                    ProductId = id,
+                    ColorId = colorId
+                });
+            }
+
+            if (product.Image != null)
+            {
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                if (!Directory.Exists(folder))
+                    Directory.CreateDirectory(folder);
+
+                var fileName = Guid.NewGuid() + Path.GetExtension(product.Image.FileName);
+                var fullPath = Path.Combine(folder, fileName);
+
+                using var stream = new FileStream(fullPath, FileMode.Create);
+                await product.Image.CopyToAsync(stream);
+
+                existing.ImagePath = "/images/" + fileName;
+            }
 
             await context.SaveChangesAsync();
-            return Ok(existing);
+
+            var response = new ProductResponseDto
+            {
+                ProductId = existing.ProductId,
+                ProductName = existing.ProductName,
+                ProductPrice = existing.ProductPrice,
+                Features = existing.Features,
+                PurchaseDate = existing.PurchaseDate,
+                Description = existing.Description,
+                Size = existing.Size,
+                ColorIds = product.ColorIds,
+                Image = product.Image
+            };
+
+            return Ok(response);
         }
 
         [HttpDelete("{id}")]
